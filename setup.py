@@ -1,9 +1,10 @@
-import canvass
 from setuptools import setup
+
+canvass_version = '0.1'
 
 setup(
     name='canvass',
-    version=canvass.__version__,
+    version=canvass_version,
     description='Ask a tree-based series of questions, using inquirer',
     license='MIT',
     author='Dominic Fitzgerald',

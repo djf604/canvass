@@ -4,8 +4,6 @@ import uuid
 
 import inquirer
 
-__version__ = '0.1'
-
 
 class Canvass(object):
     _current_canvass = None
